@@ -51,8 +51,9 @@ class DataController extends Controller
             $dataArray = json_decode($contents,true);
 
             // $keysWithId = array_keys(array_column($dataArray, "id"));
-            $idKeys = $this->findIds($dataArray);
+            $newArray = $this->findIds($dataArray);
             // dd($idKeys);
+            $idKeys = array_unique($newArray)
             $csvFile = public_path('files\New-Data.csv');
             $csvHandle = fopen($csvFile,'w');
 
