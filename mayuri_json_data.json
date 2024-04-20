@@ -1,0 +1,4105 @@
+{
+    "@context": [
+        "https://opencontext.org/contexts/search.json",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld"
+    ],
+    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe",
+    "dcmi:modified": "2024-02-01T03:58:25Z",
+    "dcmi:created": "2012-06-30T00:00:00Z",
+    "oai-pmh:earliestDatestamp": "2012-02-27T00:00:00Z",
+    "oc-api:descriptiveness-min": 19.990000000000002,
+    "oc-api:descriptiveness-max": 2047.5075000000002,
+    "oc-api:human-remains-flagged": true,
+    "allevent-start": "-4799",
+    "allevent-stop": "-0724",
+    "oc-api:all-geospatial-feature-counts": [
+        {
+            "total_events_count": 1,
+            "count": 78414
+        }
+    ],
+    "oc-api:all-chronology-range-counts": [
+        {
+            "total_events_count": 1,
+            "count": 60130
+        }
+    ],
+    "totalResults": 78414,
+    "startIndex": 0,
+    "itemsPerPage": 50,
+    "next": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?rows=50&start=50",
+    "next-json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?rows=50&start=50",
+    "last": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?rows=50&start=78400",
+    "last-json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?rows=50&start=78400",
+    "oc-api:active-sorting": [
+        {
+            "id": "#current-sort-1",
+            "type": "oc-api:sort-interest",
+            "label": "Interest score",
+            "oc-api:sort-order": "descending"
+        }
+    ],
+    "oc-api:has-sorting": [
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=item--asc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=item--asc",
+            "type": "oc-api:sort-item",
+            "label": "Item (type, provenance, label)",
+            "oc-api:sort-order": "ascending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=item--desc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=item--desc",
+            "type": "oc-api:sort-item",
+            "label": "Item (type, provenance, label)",
+            "oc-api:sort-order": "descending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=item-class--asc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=item-class--asc",
+            "type": "oc-api:sort-item-class",
+            "label": "General category",
+            "oc-api:sort-order": "ascending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=item-class--desc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=item-class--desc",
+            "type": "oc-api:sort-item-class",
+            "label": "General category",
+            "oc-api:sort-order": "descending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=project--asc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=project--asc",
+            "type": "oc-api:sort-project",
+            "label": "Project",
+            "oc-api:sort-order": "ascending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=project--desc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=project--desc",
+            "type": "oc-api:sort-project",
+            "label": "Project",
+            "oc-api:sort-order": "descending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=updated--asc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=updated--asc",
+            "type": "oc-api:sort-updated",
+            "label": "Updated",
+            "oc-api:sort-order": "ascending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=updated--desc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=updated--desc",
+            "type": "oc-api:sort-updated",
+            "label": "Updated",
+            "oc-api:sort-order": "descending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=context--asc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=context--asc",
+            "type": "oc-api:sort-context",
+            "label": "Item Context",
+            "oc-api:sort-order": "ascending"
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?sort=context--desc",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?sort=context--desc",
+            "type": "oc-api:sort-context",
+            "label": "Item Context",
+            "oc-api:sort-order": "descending"
+        }
+    ],
+    "oc-api:active-filters": [
+        {
+            "id": "#filter-1",
+            "oc-api:filter": "Context",
+            "oc-api:filter-group": "Asia/Turkey/Kenan+Tepe",
+            "label": "Asia",
+            "rdfs:isDefinedBy": "opencontext.org/subjects/a6c5488c-98de-4e5a-9654-c1a2be698840",
+            "oc-api:filter-slug": "oc-asia",
+            "oc-api:remove": "https://opencontext.org/query/",
+            "oc-api:remove-json": "https://opencontext.org/query/.json",
+            "oc-api:broaden": "https://opencontext.org/query/Asia",
+            "oc-api:broaden-json": "https://opencontext.org/query/Asia.json"
+        },
+        {
+            "id": "#filter-2",
+            "oc-api:filter": "Context",
+            "oc-api:filter-group": "Asia/Turkey/Kenan+Tepe",
+            "label": "Turkey",
+            "rdfs:isDefinedBy": "opencontext.org/subjects/963d4b58-5397-c458-cc6b-88bdf1b559b9",
+            "oc-api:filter-slug": "turkey",
+            "oc-api:remove": "https://opencontext.org/query/",
+            "oc-api:remove-json": "https://opencontext.org/query/.json",
+            "oc-api:broaden": "https://opencontext.org/query/Asia/Turkey",
+            "oc-api:broaden-json": "https://opencontext.org/query/Asia/Turkey.json"
+        },
+        {
+            "id": "#filter-3",
+            "oc-api:filter": "Context",
+            "oc-api:filter-group": "Asia/Turkey/Kenan+Tepe",
+            "label": "Kenan Tepe",
+            "rdfs:isDefinedBy": "opencontext.org/subjects/5d6b6454-017a-43c1-9f15-6dfe36c3558f",
+            "oc-api:filter-slug": "22-kenan-tepe-15",
+            "oc-api:remove": "https://opencontext.org/query/",
+            "oc-api:remove-json": "https://opencontext.org/query/.json"
+        }
+    ],
+    "oc-api:has-text-search": [
+        {
+            "id": "#textfield-keyword-search",
+            "label": "Current Text Search Filter",
+            "oc-api:search-term": null,
+            "oc-api:template": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?q=%7Bsearch_term%7D",
+            "oc-api:template-json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?q=%7Bsearch_term%7D"
+        }
+    ],
+    "oc-api:has-event-time-ranges": [
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000121&allevent-start=-4800.0&allevent-stop=-725.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000121&allevent-start=-4800.0&allevent-stop=-725.0",
+            "count": 1,
+            "category": "oc-gen:general-time-space",
+            "start": "-4799",
+            "stop": "-0724",
+            "properties": {
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000301&allevent-start=-4800.0&allevent-stop=-2883.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000301&allevent-start=-4800.0&allevent-stop=-2883.0",
+            "count": 40,
+            "category": "oc-gen:general-time-space",
+            "start": "-4799",
+            "stop": "-2882",
+            "properties": {
+                "early bce/ce": -4800.0,
+                "late bce/ce": -2883.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000303&allevent-start=-4800.0&allevent-stop=-4104.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000303&allevent-start=-4800.0&allevent-stop=-4104.0",
+            "count": 18057,
+            "category": "oc-gen:general-time-space",
+            "start": "-4799",
+            "stop": "-4103",
+            "properties": {
+                "early bce/ce": -4800.0,
+                "late bce/ce": -4104.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000122&allevent-start=-4104.0&allevent-stop=-1662.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000122&allevent-start=-4104.0&allevent-stop=-1662.0",
+            "count": 1776,
+            "category": "oc-gen:general-time-space",
+            "start": "-4103",
+            "stop": "-1661",
+            "properties": {
+                "early bce/ce": -4104.0,
+                "late bce/ce": -1662.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000300&allevent-start=-4104.0&allevent-stop=-2883.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000300&allevent-start=-4104.0&allevent-stop=-2883.0",
+            "count": 17387,
+            "category": "oc-gen:general-time-space",
+            "start": "-4103",
+            "stop": "-2882",
+            "properties": {
+                "early bce/ce": -4104.0,
+                "late bce/ce": -2883.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000033&allevent-start=-2883.0&allevent-stop=-1662.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000033&allevent-start=-2883.0&allevent-stop=-1662.0",
+            "count": 18050,
+            "category": "oc-gen:general-time-space",
+            "start": "-2882",
+            "stop": "-1661",
+            "properties": {
+                "early bce/ce": -2883.0,
+                "late bce/ce": -1662.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-chronotile=0000000000030&allevent-start=-1662.0&allevent-stop=-725.0",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-chronotile=0000000000030&allevent-start=-1662.0&allevent-stop=-725.0",
+            "count": 4819,
+            "category": "oc-gen:general-time-space",
+            "start": "-1661",
+            "stop": "-0724",
+            "properties": {
+                "early bce/ce": -1662.0,
+                "late bce/ce": -725.0
+            }
+        }
+    ],
+    "oc-api:has-facets": [
+        {
+            "id": "#facet-22-kenan-tepe-15",
+            "label": "Kenan Tepe (Context)",
+            "rdfs:isDefinedBy": "https://opencontext.org/subjects/5d6b6454-017a-43c1-9f15-6dfe36c3558f",
+            "slug": "22-kenan-tepe-15",
+            "type": "oc-api:facet-context",
+            "oc-api:has-id-options": [
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+D",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+D.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/64e926fa-087a-4873-df43-ffee0e1ebe61",
+                    "slug": "22-area-d",
+                    "label": "Area D",
+                    "count": 30871
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+F",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+F.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/85b36de2-96fc-40af-b3fb-d35ccde2189e",
+                    "slug": "22-area-f",
+                    "label": "Area F",
+                    "count": 15169
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+C",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+C.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/48465cc5-ecb3-4101-6a78-f2118be4323c",
+                    "slug": "22-area-c",
+                    "label": "Area C",
+                    "count": 11217
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+A",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+A.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/f40478a6-1844-4650-2080-905040836d59",
+                    "slug": "22-area-a",
+                    "label": "Area A",
+                    "count": 6961
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+E",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+E.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/517d21a5-0632-43f6-74c4-99104d5eee5c",
+                    "slug": "22-area-e",
+                    "label": "Area E",
+                    "count": 5986
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+G",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+G.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/cb5eb7de-b106-48d5-ca00-edbdf7d93bb6",
+                    "slug": "22-area-g",
+                    "label": "Area G",
+                    "count": 4750
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+B",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+B.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/cc3dda1a-1c78-41ea-e05a-9bbc248c8b23",
+                    "slug": "22-area-b",
+                    "label": "Area B",
+                    "count": 2823
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+H",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+H.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/962842fe-2679-4de3-600a-aba7782cf61d",
+                    "slug": "22-area-h",
+                    "label": "Area H",
+                    "count": 374
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+I",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe/Area+I.json",
+                    "rdfs:isDefinedBy": "https://opencontext.org/subjects/4d4235c2-4293-42b3-8a70-f866e18afd7d",
+                    "slug": "22-area-i",
+                    "label": "Area I",
+                    "count": 237
+                }
+            ]
+        },
+        {
+            "id": "#facet-prop-ld",
+            "rdfs:isDefinedBy": "oc-api:facet-prop-ld",
+            "label": "Descriptions (Common Standards)",
+            "type": "oc-api:facet-prop",
+            "oc-api:has-id-options": [
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-coverage",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-coverage",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/coverage",
+                    "slug": "dc-terms-coverage",
+                    "label": "Coverage",
+                    "skos:altLabel": "Coverage (Period) Metadata",
+                    "count": 78414
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-creator",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-creator",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/creator",
+                    "slug": "dc-terms-creator",
+                    "label": "Creator",
+                    "count": 78414
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-license",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-license",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/license",
+                    "slug": "dc-terms-license",
+                    "label": "License",
+                    "count": 78414
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-spatial",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-spatial",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/spatial",
+                    "slug": "dc-terms-spatial",
+                    "label": "Spatial Coverage",
+                    "skos:altLabel": "Spatial Metadata",
+                    "count": 78414
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-subject",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-subject",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/subject",
+                    "slug": "dc-terms-subject",
+                    "label": "Subject",
+                    "skos:altLabel": "Subject Metadata",
+                    "count": 78414
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-contributor",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-contributor",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/contributor",
+                    "slug": "dc-terms-contributor",
+                    "label": "Contributor",
+                    "count": 48222
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=cidoc-crm-p45-consists-of",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=cidoc-crm-p45-consists-of",
+                    "rdfs:isDefinedBy": "https://erlangen-crm.org/current/P45_consists_of",
+                    "slug": "cidoc-crm-p45-consists-of",
+                    "label": "Consists of",
+                    "count": 17978
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=cidoc-crm-p2-has-type",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=cidoc-crm-p2-has-type",
+                    "rdfs:isDefinedBy": "https://erlangen-crm.org/current/P2_has_type",
+                    "slug": "cidoc-crm-p2-has-type",
+                    "label": "Has type",
+                    "count": 15012
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=obo-foodon-00001303",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=obo-foodon-00001303",
+                    "rdfs:isDefinedBy": "http://purl.obolibrary.org/obo/FOODON_00001303",
+                    "slug": "obo-foodon-00001303",
+                    "label": "Has taxonomic identifier",
+                    "count": 5345
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=cidoc-crm-e54-dimension",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=cidoc-crm-e54-dimension",
+                    "rdfs:isDefinedBy": "https://erlangen-crm.org/current/E54_Dimension",
+                    "slug": "cidoc-crm-e54-dimension",
+                    "label": "E54 Dimension",
+                    "count": 178
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=obo-pato-0000040",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=obo-pato-0000040",
+                    "rdfs:isDefinedBy": "http://purl.obolibrary.org/obo/PATO_0000040",
+                    "slug": "obo-pato-0000040",
+                    "label": "Distance",
+                    "count": 178
+                }
+            ],
+            "oc-api:has-text-options": [
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=schema-org-text",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=schema-org-text",
+                    "rdfs:isDefinedBy": "https://schema.org/text",
+                    "slug": "schema-org-text",
+                    "label": "Text",
+                    "count": 1967
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-abstract",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-abstract",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/abstract",
+                    "slug": "dc-terms-abstract",
+                    "label": "Abstract",
+                    "count": 1
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?prop=dc-terms-description",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?prop=dc-terms-description",
+                    "rdfs:isDefinedBy": "https://purl.org/dc/terms/description",
+                    "slug": "dc-terms-description",
+                    "label": "Description",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "id": "#facet-project",
+            "rdfs:isDefinedBy": "oc-api:facet-project",
+            "label": "Project",
+            "type": "oc-api:facet-project",
+            "oc-api:has-id-options": [
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?proj=22-kenan-tepe",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?proj=22-kenan-tepe",
+                    "rdfs:isDefinedBy": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                    "slug": "22-kenan-tepe",
+                    "label": "Kenan Tepe",
+                    "count": 78414
+                }
+            ]
+        },
+        {
+            "id": "#facet-item-type",
+            "rdfs:isDefinedBy": "oc-api:facet-item-type",
+            "label": "Open Context Type",
+            "data-type": "id",
+            "type": "oc-api:facet-item-type",
+            "oc-api:has-id-options": [
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?type=subjects",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?type=subjects",
+                    "rdfs:isDefinedBy": "oc-gen:subjects",
+                    "label": "Subjects of Observation",
+                    "slug": "oc-gen-subjects",
+                    "count": 45641
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?type=media",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?type=media",
+                    "rdfs:isDefinedBy": "oc-gen:media",
+                    "label": "Media",
+                    "slug": "oc-gen-media",
+                    "count": 30805
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?type=documents",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?type=documents",
+                    "rdfs:isDefinedBy": "oc-gen:documents",
+                    "label": "Documents",
+                    "slug": "oc-gen-documents",
+                    "count": 1967
+                },
+                {
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?type=projects",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?type=projects",
+                    "rdfs:isDefinedBy": "oc-gen:projects",
+                    "label": "Projects",
+                    "slug": "oc-gen-projects",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "id": "#related-media",
+            "label": "Has Related Media",
+            "oc-api:has-rel-media-options": [
+                {
+                    "label": "Linked with images",
+                    "count": 11744,
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?images=1",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?images=1"
+                },
+                {
+                    "label": "Linked with documents",
+                    "count": 6702,
+                    "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?documents=1",
+                    "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?documents=1"
+                }
+            ]
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003033332",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003033332",
+            "count": 63,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003033332",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003033332",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81352233886719,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83175130707428
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83175130707428
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83148014503288
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003033332",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003033332",
+                "label": "Region (1)",
+                "feature-type": "Geospace region (facet)",
+                "count": 63,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003122230",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003122230",
+            "count": 91,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003122230",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003122230",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.814895629882805,
+                            37.83175130707428
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83175130707428
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83202246811909
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83202246811909
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83175130707428
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003122230",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003122230",
+                "label": "Region (2)",
+                "feature-type": "Geospace region (facet)",
+                "count": 91,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003122232",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003122232",
+            "count": 129,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003122232",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003122232",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.814895629882805,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83175130707428
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83175130707428
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83148014503288
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003122232",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003122232",
+                "label": "Region (3)",
+                "feature-type": "Geospace region (facet)",
+                "count": 129,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003122233",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003122233",
+            "count": 6874,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003122233",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003122233",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81523895263673,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81558227539062,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81558227539062,
+                            37.83175130707428
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83175130707428
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83148014503288
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003122233",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003122233",
+                "label": "Region (4)",
+                "feature-type": "Geospace region (facet)",
+                "count": 6874,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211030",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211030",
+            "count": 429,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211030",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211030",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81214904785156,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81249237060548,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81249237060548,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81214904785156,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81214904785156,
+                            37.830666652929224
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211030",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211030",
+                "label": "Region (5)",
+                "feature-type": "Geospace region (facet)",
+                "count": 429,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211031",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211031",
+            "count": 8902,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211031",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211031",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81249237060548,
+                            37.830666652929224
+                        ],
+                        [
+                            40.812835693359375,
+                            37.830666652929224
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81249237060548,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81249237060548,
+                            37.830666652929224
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211031",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211031",
+                "label": "Region (6)",
+                "feature-type": "Geospace region (facet)",
+                "count": 8902,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211033",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211033",
+            "count": 2667,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211033",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211033",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81249237060548,
+                            37.83039548690152
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83039548690152
+                        ],
+                        [
+                            40.812835693359375,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81249237060548,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81249237060548,
+                            37.83039548690152
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211033",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211033",
+                "label": "Region (7)",
+                "feature-type": "Geospace region (facet)",
+                "count": 2667,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211102",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211102",
+            "count": 23,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211102",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211102",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.812835693359375,
+                            37.83093781796035
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83093781796035
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83120898199489
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83120898199489
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83093781796035
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211102",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211102",
+                "label": "Region (8)",
+                "feature-type": "Geospace region (facet)",
+                "count": 23,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211103",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211103",
+            "count": 169,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211103",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211103",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.813179016113295,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83120898199489
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83120898199489
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83093781796035
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211103",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211103",
+                "label": "Region (9)",
+                "feature-type": "Geospace region (facet)",
+                "count": 169,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211110",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211110",
+            "count": 4,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211110",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211110",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81352233886719,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83120898199489
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211110",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211110",
+                "label": "Region (10)",
+                "feature-type": "Geospace region (facet)",
+                "count": 4,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211111",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211111",
+            "count": 1129,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211111",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211111",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81386566162111,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81420898437499,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81420898437499,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83120898199489
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211111",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211111",
+                "label": "Region (11)",
+                "feature-type": "Geospace region (facet)",
+                "count": 1129,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211112",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211112",
+            "count": 188,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211112",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211112",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81352233886719,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83093781796035
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211112",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211112",
+                "label": "Region (12)",
+                "feature-type": "Geospace region (facet)",
+                "count": 188,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211113",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211113",
+            "count": 1334,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211113",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211113",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81386566162111,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81420898437499,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81420898437499,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83093781796035
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211113",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211113",
+                "label": "Region (13)",
+                "feature-type": "Geospace region (facet)",
+                "count": 1334,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211120",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211120",
+            "count": 64,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211120",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211120",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.812835693359375,
+                            37.830666652929224
+                        ],
+                        [
+                            40.813179016113295,
+                            37.830666652929224
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83093781796035
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83093781796035
+                        ],
+                        [
+                            40.812835693359375,
+                            37.830666652929224
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211120",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211120",
+                "label": "Region (14)",
+                "feature-type": "Geospace region (facet)",
+                "count": 64,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211121",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211121",
+            "count": 5648,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211121",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211121",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.813179016113295,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81352233886719,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83093781796035
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83093781796035
+                        ],
+                        [
+                            40.813179016113295,
+                            37.830666652929224
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211121",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211121",
+                "label": "Region (15)",
+                "feature-type": "Geospace region (facet)",
+                "count": 5648,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211122",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211122",
+            "count": 2264,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211122",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211122",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.812835693359375,
+                            37.83039548690152
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83039548690152
+                        ],
+                        [
+                            40.813179016113295,
+                            37.830666652929224
+                        ],
+                        [
+                            40.812835693359375,
+                            37.830666652929224
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83039548690152
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211122",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211122",
+                "label": "Region (16)",
+                "feature-type": "Geospace region (facet)",
+                "count": 2264,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211123",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211123",
+            "count": 861,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211123",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211123",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.813179016113295,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81352233886719,
+                            37.830666652929224
+                        ],
+                        [
+                            40.813179016113295,
+                            37.830666652929224
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83039548690152
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211123",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211123",
+                "label": "Region (17)",
+                "feature-type": "Geospace region (facet)",
+                "count": 861,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211130",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211130",
+            "count": 7631,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211130",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211130",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81352233886719,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81386566162111,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83093781796035
+                        ],
+                        [
+                            40.81352233886719,
+                            37.830666652929224
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211130",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211130",
+                "label": "Region (18)",
+                "feature-type": "Geospace region (facet)",
+                "count": 7631,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211132",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211132",
+            "count": 23257,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211132",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211132",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81352233886719,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81386566162111,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81352233886719,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83039548690152
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211132",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211132",
+                "label": "Region (19)",
+                "feature-type": "Geospace region (facet)",
+                "count": 23257,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211211",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211211",
+            "count": 125,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211211",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211211",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81249237060548,
+                            37.830124319877235
+                        ],
+                        [
+                            40.812835693359375,
+                            37.830124319877235
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81249237060548,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81249237060548,
+                            37.830124319877235
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211211",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211211",
+                "label": "Region (20)",
+                "feature-type": "Geospace region (facet)",
+                "count": 125,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211300",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211300",
+            "count": 110,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211300",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211300",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.812835693359375,
+                            37.830124319877235
+                        ],
+                        [
+                            40.813179016113295,
+                            37.830124319877235
+                        ],
+                        [
+                            40.813179016113295,
+                            37.83039548690152
+                        ],
+                        [
+                            40.812835693359375,
+                            37.83039548690152
+                        ],
+                        [
+                            40.812835693359375,
+                            37.830124319877235
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211300",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211300",
+                "label": "Region (21)",
+                "feature-type": "Geospace region (facet)",
+                "count": 110,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211303",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211303",
+            "count": 3,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211303",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211303",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.813179016113295,
+                            37.82985315185641
+                        ],
+                        [
+                            40.81352233886719,
+                            37.82985315185641
+                        ],
+                        [
+                            40.81352233886719,
+                            37.830124319877235
+                        ],
+                        [
+                            40.813179016113295,
+                            37.830124319877235
+                        ],
+                        [
+                            40.813179016113295,
+                            37.82985315185641
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211303",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211303",
+                "label": "Region (22)",
+                "feature-type": "Geospace region (facet)",
+                "count": 3,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211310",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003211310",
+            "count": 5987,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003211310",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003211310",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81352233886719,
+                            37.830124319877235
+                        ],
+                        [
+                            40.81386566162111,
+                            37.830124319877235
+                        ],
+                        [
+                            40.81386566162111,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81352233886719,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81352233886719,
+                            37.830124319877235
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003211310",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003211310",
+                "label": "Region (23)",
+                "feature-type": "Geospace region (facet)",
+                "count": 5987,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300001",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003300001",
+            "count": 2011,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003300001",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003300001",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81455230712892,
+                            37.83120898199489
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83120898199489
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81455230712892,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81455230712892,
+                            37.83120898199489
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003300001",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300001",
+                "label": "Region (24)",
+                "feature-type": "Geospace region (facet)",
+                "count": 2011,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300003",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003300003",
+            "count": 632,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003300003",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003300003",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81455230712892,
+                            37.83093781796035
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83093781796035
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81455230712892,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81455230712892,
+                            37.83093781796035
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003300003",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300003",
+                "label": "Region (25)",
+                "feature-type": "Geospace region (facet)",
+                "count": 632,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300010",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003300010",
+            "count": 360,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003300010",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003300010",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.814895629882805,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83148014503288
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83148014503288
+                        ],
+                        [
+                            40.814895629882805,
+                            37.83120898199489
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003300010",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300010",
+                "label": "Region (26)",
+                "feature-type": "Geospace region (facet)",
+                "count": 360,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300011",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003300011",
+            "count": 7084,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003300011",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003300011",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81523895263673,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81558227539062,
+                            37.83120898199489
+                        ],
+                        [
+                            40.81558227539062,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83148014503288
+                        ],
+                        [
+                            40.81523895263673,
+                            37.83120898199489
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003300011",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300011",
+                "label": "Region (27)",
+                "feature-type": "Geospace region (facet)",
+                "count": 7084,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300022",
+            "json": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe.json?allevent-geotile=12211121222003300022",
+            "count": 375,
+            "geodeep": 20,
+            "type": "Feature",
+            "category": "oc-api:geo-facet",
+            "when": {
+                "id": "#event-12211121222003300022",
+                "type": "oc-gen:general-time-space",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "geometry": {
+                "id": "#geo-all-geom-12211121222003300022",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.81420898437499,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81455230712892,
+                            37.83039548690152
+                        ],
+                        [
+                            40.81455230712892,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81420898437499,
+                            37.830666652929224
+                        ],
+                        [
+                            40.81420898437499,
+                            37.83039548690152
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "#geo-all-12211121222003300022",
+                "href": "https://opencontext.org/query/Asia/Turkey/Kenan+Tepe?allevent-geotile=12211121222003300022",
+                "label": "Region (28)",
+                "feature-type": "Geospace region (facet)",
+                "count": 375,
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0
+            }
+        },
+        {
+            "id": "#record-1-of-78414",
+            "label": "Kenan Tepe",
+            "slug": "22-kenan-tepe",
+            "rdfs:isDefinedBy": "http://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+            "oc-api:descriptiveness": 2047.5075000000002,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-1-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.81383558439638,
+                    37.83094667428517
+                ]
+            },
+            "when": {
+                "id": "#record-event-1-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4799",
+                "stop": "-0724"
+            },
+            "properties": {
+                "id": "#rec-1-of-78414",
+                "feature-type": "item record",
+                "label": "Kenan Tepe",
+                "uri": "http://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "citation uri": "https://doi.org/10.6078/M7H41PBJ",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe",
+                "context href": "https://opencontext.org/subjects/5d6b6454-017a-43c1-9f15-6dfe36c3558f",
+                "early bce/ce": -4800.0,
+                "late bce/ce": -725.0,
+                "item category": "Projects",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-research-project-2341022.svg",
+                "published": "2012-02-27T00:00:00Z",
+                "updated": "2023-10-03T20:26:43Z"
+            }
+        },
+        {
+            "id": "#record-2-of-78414",
+            "label": "Trench 2",
+            "slug": "22-trench-2-11",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/fc96a49e-fe12-488b-4eff-02d4e147b885",
+            "oc-api:descriptiveness": 1223.365,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-2-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813314,
+                    37.830724
+                ]
+            },
+            "properties": {
+                "id": "#rec-2-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 2",
+                "uri": "http://opencontext.org/subjects/fc96a49e-fe12-488b-4eff-02d4e147b885",
+                "href": "https://opencontext.org/subjects/fc96a49e-fe12-488b-4eff-02d4e147b885",
+                "citation uri": "https://n2t.net/ark:/28722/k2sx64g08",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A",
+                "context href": "https://opencontext.org/subjects/f40478a6-1844-4650-2080-905040836d59",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-a-2-2002-08-07-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T00:02:00Z"
+            }
+        },
+        {
+            "id": "#record-3-of-78414",
+            "label": "Trench 7",
+            "slug": "22-trench-7-1",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/d6b9114a-a32c-48a6-7f28-46b4b9a661bd",
+            "oc-api:descriptiveness": 1065.5,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-3-of-78414",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.815378,
+                            37.831503
+                        ],
+                        [
+                            40.81548,
+                            37.831498
+                        ],
+                        [
+                            40.815487,
+                            37.831567
+                        ],
+                        [
+                            40.815489,
+                            37.831568
+                        ],
+                        [
+                            40.81549,
+                            37.831577
+                        ],
+                        [
+                            40.815487,
+                            37.831581
+                        ],
+                        [
+                            40.815488,
+                            37.831585
+                        ],
+                        [
+                            40.815477,
+                            37.831586
+                        ],
+                        [
+                            40.815475,
+                            37.83158
+                        ],
+                        [
+                            40.815385,
+                            37.831584
+                        ],
+                        [
+                            40.815378,
+                            37.831503
+                        ]
+                    ]
+                ]
+            },
+            "when": {
+                "id": "#record-event-3-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-3599",
+                "stop": "-2899"
+            },
+            "properties": {
+                "id": "#rec-3-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 7",
+                "uri": "http://opencontext.org/subjects/d6b9114a-a32c-48a6-7f28-46b4b9a661bd",
+                "href": "https://opencontext.org/subjects/d6b9114a-a32c-48a6-7f28-46b4b9a661bd",
+                "citation uri": "https://n2t.net/ark:/28722/k26q1z123",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area F",
+                "context href": "https://opencontext.org/subjects/85b36de2-96fc-40af-b3fb-d35ccde2189e",
+                "early bce/ce": -3600.0,
+                "late bce/ce": -2900.0,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-f-7-2005-06-23-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T20:14:45Z"
+            }
+        },
+        {
+            "id": "#record-4-of-78414",
+            "label": "Trench 5",
+            "slug": "22-trench-5-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/5cb3dfff-05ff-4b85-61fb-8a2c063a84c4",
+            "oc-api:descriptiveness": 925.495,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-4-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813714,
+                    37.830708
+                ]
+            },
+            "properties": {
+                "id": "#rec-4-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 5",
+                "uri": "http://opencontext.org/subjects/5cb3dfff-05ff-4b85-61fb-8a2c063a84c4",
+                "href": "https://opencontext.org/subjects/5cb3dfff-05ff-4b85-61fb-8a2c063a84c4",
+                "citation uri": "https://n2t.net/ark:/28722/k2ff3rs4m",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D",
+                "context href": "https://opencontext.org/subjects/64e926fa-087a-4873-df43-ffee0e1ebe61",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-5-2005-06-07-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T05:29:07Z"
+            }
+        },
+        {
+            "id": "#record-5-of-78414",
+            "label": "Trench 6",
+            "slug": "22-trench-6-4",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+            "oc-api:descriptiveness": 915.62,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-5-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "properties": {
+                "id": "#rec-5-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 6",
+                "uri": "http://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "citation uri": "https://n2t.net/ark:/28722/k28k79m5t",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D",
+                "context href": "https://opencontext.org/subjects/64e926fa-087a-4873-df43-ffee0e1ebe61",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2007-07-02-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-02-01T00:53:18Z"
+            }
+        },
+        {
+            "id": "#record-6-of-78414",
+            "label": "Trench 1",
+            "slug": "22-trench-1-12",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/c1baa068-5c69-4b54-738d-81b41d8d08df",
+            "oc-api:descriptiveness": 791.6,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-6-of-78414",
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            40.815365,
+                            37.83136
+                        ],
+                        [
+                            40.815361,
+                            37.831324
+                        ],
+                        [
+                            40.815413,
+                            37.831321
+                        ],
+                        [
+                            40.815415,
+                            37.831358
+                        ],
+                        [
+                            40.815365,
+                            37.83136
+                        ]
+                    ]
+                ]
+            },
+            "when": {
+                "id": "#record-event-6-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-3599",
+                "stop": "-2899"
+            },
+            "properties": {
+                "id": "#rec-6-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 1",
+                "uri": "http://opencontext.org/subjects/c1baa068-5c69-4b54-738d-81b41d8d08df",
+                "href": "https://opencontext.org/subjects/c1baa068-5c69-4b54-738d-81b41d8d08df",
+                "citation uri": "https://n2t.net/ark:/28722/k2542pt1t",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area F",
+                "context href": "https://opencontext.org/subjects/85b36de2-96fc-40af-b3fb-d35ccde2189e",
+                "early bce/ce": -3600.0,
+                "late bce/ce": -2900.0,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-f-1-2004-07-21-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T02:09:34Z"
+            }
+        },
+        {
+            "id": "#record-7-of-78414",
+            "label": "Trench 4",
+            "slug": "22-trench-4",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/618bcb52-381b-4263-c3ce-99676745e24d",
+            "oc-api:descriptiveness": 732.31,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-7-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813654,
+                    37.830637
+                ]
+            },
+            "properties": {
+                "id": "#rec-7-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 4",
+                "uri": "http://opencontext.org/subjects/618bcb52-381b-4263-c3ce-99676745e24d",
+                "href": "https://opencontext.org/subjects/618bcb52-381b-4263-c3ce-99676745e24d",
+                "citation uri": "https://n2t.net/ark:/28722/k2x34sn6g",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D",
+                "context href": "https://opencontext.org/subjects/64e926fa-087a-4873-df43-ffee0e1ebe61",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-4-2007-07-02-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-02-01T03:01:54Z"
+            }
+        },
+        {
+            "id": "#record-8-of-78414",
+            "label": "Trench 2",
+            "slug": "22-trench-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/071431e0-0143-4ccf-4953-17a033264ec8",
+            "oc-api:descriptiveness": 726.145,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-8-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813539,
+                    37.830333
+                ]
+            },
+            "properties": {
+                "id": "#rec-8-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 2",
+                "uri": "http://opencontext.org/subjects/071431e0-0143-4ccf-4953-17a033264ec8",
+                "href": "https://opencontext.org/subjects/071431e0-0143-4ccf-4953-17a033264ec8",
+                "citation uri": "https://n2t.net/ark:/28722/k2xw4dg6m",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area E",
+                "context href": "https://opencontext.org/subjects/517d21a5-0632-43f6-74c4-99104d5eee5c",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-e-2-2007-06-27-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T04:29:41Z"
+            }
+        },
+        {
+            "id": "#record-9-of-78414",
+            "label": "Locus 20",
+            "slug": "22-locus-20-304",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/fa43344c-be77-442f-5c5b-fae5f5893380",
+            "oc-api:descriptiveness": 719.7099999999999,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-9-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-9-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-9-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 20",
+                "uri": "http://opencontext.org/subjects/fa43344c-be77-442f-5c5b-fae5f5893380",
+                "href": "https://opencontext.org/subjects/fa43344c-be77-442f-5c5b-fae5f5893380",
+                "citation uri": "https://n2t.net/ark:/28722/k24t6ks4p",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T20:42:14Z"
+            }
+        },
+        {
+            "id": "#record-10-of-78414",
+            "label": "A-2-2000-07-022-Season",
+            "slug": "22-a-2-2000-07-022-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/9243d77e-9205-458a-c546-0443eaed76c9",
+            "oc-api:descriptiveness": 696.91,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-10-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813314,
+                    37.830724
+                ]
+            },
+            "properties": {
+                "id": "#rec-10-of-78414",
+                "feature-type": "item record",
+                "label": "A-2-2000-07-022-Season",
+                "uri": "http://opencontext.org/documents/9243d77e-9205-458a-c546-0443eaed76c9",
+                "href": "https://opencontext.org/documents/9243d77e-9205-458a-c546-0443eaed76c9",
+                "citation uri": "https://n2t.net/ark:/28722/k2jd4v54r",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A/Trench 2",
+                "context href": "https://opencontext.org/subjects/fc96a49e-fe12-488b-4eff-02d4e147b885",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T03:29:07Z"
+            }
+        },
+        {
+            "id": "#record-11-of-78414",
+            "label": "Trench 1",
+            "slug": "22-trench-1-16",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/d1b3b322-075f-4140-776e-d3e694924ec9",
+            "oc-api:descriptiveness": 691.07,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-11-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812608,
+                    37.830894
+                ]
+            },
+            "properties": {
+                "id": "#rec-11-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 1",
+                "uri": "http://opencontext.org/subjects/d1b3b322-075f-4140-776e-d3e694924ec9",
+                "href": "https://opencontext.org/subjects/d1b3b322-075f-4140-776e-d3e694924ec9",
+                "citation uri": "https://n2t.net/ark:/28722/k2tm7733m",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C",
+                "context href": "https://opencontext.org/subjects/48465cc5-ecb3-4101-6a78-f2118be4323c",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-c-1-2005-06-23-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T11:11:22Z"
+            }
+        },
+        {
+            "id": "#record-12-of-78414",
+            "label": "Trench 2",
+            "slug": "22-trench-2-4",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/7080c9ee-10f9-43e0-0715-033e2ae4571e",
+            "oc-api:descriptiveness": 669.11,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-12-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812647,
+                    37.830723
+                ]
+            },
+            "properties": {
+                "id": "#rec-12-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 2",
+                "uri": "http://opencontext.org/subjects/7080c9ee-10f9-43e0-0715-033e2ae4571e",
+                "href": "https://opencontext.org/subjects/7080c9ee-10f9-43e0-0715-033e2ae4571e",
+                "citation uri": "https://n2t.net/ark:/28722/k26h4jr14",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C",
+                "context href": "https://opencontext.org/subjects/48465cc5-ecb3-4101-6a78-f2118be4323c",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-c-2-2005-06-13-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T17:54:25Z"
+            }
+        },
+        {
+            "id": "#record-13-of-78414",
+            "label": "Locus 6",
+            "slug": "22-locus-6-52",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/ea4a4244-a2c2-4caf-9b04-c59a16465c43",
+            "oc-api:descriptiveness": 661.1999999999999,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-13-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-13-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-13-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 6",
+                "uri": "http://opencontext.org/subjects/ea4a4244-a2c2-4caf-9b04-c59a16465c43",
+                "href": "https://opencontext.org/subjects/ea4a4244-a2c2-4caf-9b04-c59a16465c43",
+                "citation uri": "https://n2t.net/ark:/28722/k2nv9g137",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-02-01T00:13:57Z"
+            }
+        },
+        {
+            "id": "#record-14-of-78414",
+            "label": "C-1-2000-08-017-Season",
+            "slug": "22-c-1-2000-08-017-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/077b23d3-26bd-4770-73b1-08b1a94e38a3",
+            "oc-api:descriptiveness": 659.765,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-14-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812608,
+                    37.830894
+                ]
+            },
+            "properties": {
+                "id": "#rec-14-of-78414",
+                "feature-type": "item record",
+                "label": "C-1-2000-08-017-Season",
+                "uri": "http://opencontext.org/documents/077b23d3-26bd-4770-73b1-08b1a94e38a3",
+                "href": "https://opencontext.org/documents/077b23d3-26bd-4770-73b1-08b1a94e38a3",
+                "citation uri": "https://n2t.net/ark:/28722/k2wp9zp30",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C/Trench 1",
+                "context href": "https://opencontext.org/subjects/d1b3b322-075f-4140-776e-d3e694924ec9",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T04:06:37Z"
+            }
+        },
+        {
+            "id": "#record-15-of-78414",
+            "label": "Locus 157",
+            "slug": "22-locus-157",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/3bf8a2a1-25a3-402a-6cc4-8700c6dd2458",
+            "oc-api:descriptiveness": 636.7199999999999,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-15-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813539,
+                    37.830333
+                ]
+            },
+            "when": {
+                "id": "#record-event-15-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4699",
+                "stop": "-4199"
+            },
+            "properties": {
+                "id": "#rec-15-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 157",
+                "uri": "http://opencontext.org/subjects/3bf8a2a1-25a3-402a-6cc4-8700c6dd2458",
+                "href": "https://opencontext.org/subjects/3bf8a2a1-25a3-402a-6cc4-8700c6dd2458",
+                "citation uri": "https://n2t.net/ark:/28722/k2rb71n2f",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area E/Trench 2",
+                "context href": "https://opencontext.org/subjects/071431e0-0143-4ccf-4953-17a033264ec8",
+                "early bce/ce": -4700.0,
+                "late bce/ce": -4200.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-e-2-2007-06-03-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T20:52:34Z"
+            }
+        },
+        {
+            "id": "#record-16-of-78414",
+            "label": "Trench 8",
+            "slug": "22-trench-8-3",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/a887ed68-9819-42ef-0c0d-7756f42212eb",
+            "oc-api:descriptiveness": 612.9100000000001,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-16-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813717,
+                    37.830596
+                ]
+            },
+            "properties": {
+                "id": "#rec-16-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 8",
+                "uri": "http://opencontext.org/subjects/a887ed68-9819-42ef-0c0d-7756f42212eb",
+                "href": "https://opencontext.org/subjects/a887ed68-9819-42ef-0c0d-7756f42212eb",
+                "citation uri": "https://n2t.net/ark:/28722/k2t43pq46",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D",
+                "context href": "https://opencontext.org/subjects/64e926fa-087a-4873-df43-ffee0e1ebe61",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://storage.googleapis.com/opencontext-media/internet-archive/ia-thumbnails/22-dayplan-d-8-2007-06-21-a.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T22:50:07Z"
+            }
+        },
+        {
+            "id": "#record-17-of-78414",
+            "label": "A-1-2000-07-021-Season",
+            "slug": "22-a-1-2000-07-021-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/5901f774-8389-4e8a-1552-738bc9e128d9",
+            "oc-api:descriptiveness": 610.215,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-17-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813189,
+                    37.830613
+                ]
+            },
+            "properties": {
+                "id": "#rec-17-of-78414",
+                "feature-type": "item record",
+                "label": "A-1-2000-07-021-Season",
+                "uri": "http://opencontext.org/documents/5901f774-8389-4e8a-1552-738bc9e128d9",
+                "href": "https://opencontext.org/documents/5901f774-8389-4e8a-1552-738bc9e128d9",
+                "citation uri": "https://n2t.net/ark:/28722/k2sx68s0z",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A/Trench 1",
+                "context href": "https://opencontext.org/subjects/cbb4ec07-df79-499c-6e8d-701b224049d8",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T03:28:26Z"
+            }
+        },
+        {
+            "id": "#record-18-of-78414",
+            "label": "Locus 29",
+            "slug": "22-locus-29-9",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/dfddaeff-24bc-4da7-4815-4919a1423e8d",
+            "oc-api:descriptiveness": 588.1300000000001,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-18-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-18-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-18-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 29",
+                "uri": "http://opencontext.org/subjects/dfddaeff-24bc-4da7-4815-4919a1423e8d",
+                "href": "https://opencontext.org/subjects/dfddaeff-24bc-4da7-4815-4919a1423e8d",
+                "citation uri": "https://n2t.net/ark:/28722/k2t72d49b",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T03:45:16Z"
+            }
+        },
+        {
+            "id": "#record-19-of-78414",
+            "label": "B-2-2000-08-015-Season",
+            "slug": "22-b-2-2000-08-015-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/f0cd7fc4-22b8-4c39-1d83-1b44b9def461",
+            "oc-api:descriptiveness": 583.115,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-19-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812783,
+                    37.830645
+                ]
+            },
+            "properties": {
+                "id": "#rec-19-of-78414",
+                "feature-type": "item record",
+                "label": "B-2-2000-08-015-Season",
+                "uri": "http://opencontext.org/documents/f0cd7fc4-22b8-4c39-1d83-1b44b9def461",
+                "href": "https://opencontext.org/documents/f0cd7fc4-22b8-4c39-1d83-1b44b9def461",
+                "citation uri": "https://n2t.net/ark:/28722/k28w3dj5r",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area B/Trench 2",
+                "context href": "https://opencontext.org/subjects/e161378d-8781-4237-8126-f40327e3809d",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T03:40:31Z"
+            }
+        },
+        {
+            "id": "#record-20-of-78414",
+            "label": "Trench 3",
+            "slug": "22-trench-3-4",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/9e83b5e9-c42b-44b0-6c64-145dab960c71",
+            "oc-api:descriptiveness": 582.385,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-20-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812673,
+                    37.830658
+                ]
+            },
+            "properties": {
+                "id": "#rec-20-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 3",
+                "uri": "http://opencontext.org/subjects/9e83b5e9-c42b-44b0-6c64-145dab960c71",
+                "href": "https://opencontext.org/subjects/9e83b5e9-c42b-44b0-6c64-145dab960c71",
+                "citation uri": "https://n2t.net/ark:/28722/k2n58jk6d",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C",
+                "context href": "https://opencontext.org/subjects/48465cc5-ecb3-4101-6a78-f2118be4323c",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-c-3-2002-08-12-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T13:46:44Z"
+            }
+        },
+        {
+            "id": "#record-21-of-78414",
+            "label": "Locus 25",
+            "slug": "22-locus-25-1",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/45470b69-e64b-4842-192f-e21798957cf0",
+            "oc-api:descriptiveness": 565.375,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-21-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-21-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-21-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 25",
+                "uri": "http://opencontext.org/subjects/45470b69-e64b-4842-192f-e21798957cf0",
+                "href": "https://opencontext.org/subjects/45470b69-e64b-4842-192f-e21798957cf0",
+                "citation uri": "https://n2t.net/ark:/28722/k2k35s34m",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-30T23:16:29Z"
+            }
+        },
+        {
+            "id": "#record-22-of-78414",
+            "label": "Locus 26",
+            "slug": "22-locus-26-10",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/94ba8056-a6c3-4ecd-69a7-8075086c70b5",
+            "oc-api:descriptiveness": 543.28,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-22-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-22-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-22-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 26",
+                "uri": "http://opencontext.org/subjects/94ba8056-a6c3-4ecd-69a7-8075086c70b5",
+                "href": "https://opencontext.org/subjects/94ba8056-a6c3-4ecd-69a7-8075086c70b5",
+                "citation uri": "https://n2t.net/ark:/28722/k26111f7t",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-02-01T01:57:58Z"
+            }
+        },
+        {
+            "id": "#record-23-of-78414",
+            "label": "Locus 27",
+            "slug": "22-locus-27-11",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/17222c2f-6d02-4d58-4858-3a25daa29ef0",
+            "oc-api:descriptiveness": 540.085,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-23-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-23-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-23-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 27",
+                "uri": "http://opencontext.org/subjects/17222c2f-6d02-4d58-4858-3a25daa29ef0",
+                "href": "https://opencontext.org/subjects/17222c2f-6d02-4d58-4858-3a25daa29ef0",
+                "citation uri": "https://n2t.net/ark:/28722/k2gm86b81",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T21:24:00Z"
+            }
+        },
+        {
+            "id": "#record-24-of-78414",
+            "label": "Locus 145",
+            "slug": "22-locus-145",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/af0c7dca-e007-4422-1ef1-9f56e57d4af1",
+            "oc-api:descriptiveness": 522.325,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-24-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813717,
+                    37.830596
+                ]
+            },
+            "when": {
+                "id": "#record-event-24-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4699",
+                "stop": "-4199"
+            },
+            "properties": {
+                "id": "#rec-24-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 145",
+                "uri": "http://opencontext.org/subjects/af0c7dca-e007-4422-1ef1-9f56e57d4af1",
+                "href": "https://opencontext.org/subjects/af0c7dca-e007-4422-1ef1-9f56e57d4af1",
+                "citation uri": "https://n2t.net/ark:/28722/k20v8g41b",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 8",
+                "context href": "https://opencontext.org/subjects/a887ed68-9819-42ef-0c0d-7756f42212eb",
+                "early bce/ce": -4700.0,
+                "late bce/ce": -4200.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://storage.googleapis.com/opencontext-media/internet-archive/ia-thumbnails/22-dayplan-d-8-2007-06-20-a.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T14:26:16Z"
+            }
+        },
+        {
+            "id": "#record-25-of-78414",
+            "label": "Locus 24",
+            "slug": "22-locus-24-1",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/93eb9a16-99e7-4395-40a6-e1178cde4706",
+            "oc-api:descriptiveness": 518.7850000000001,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-25-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-25-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-25-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 24",
+                "uri": "http://opencontext.org/subjects/93eb9a16-99e7-4395-40a6-e1178cde4706",
+                "href": "https://opencontext.org/subjects/93eb9a16-99e7-4395-40a6-e1178cde4706",
+                "citation uri": "https://n2t.net/ark:/28722/k21z46g77",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T22:38:04Z"
+            }
+        },
+        {
+            "id": "#record-26-of-78414",
+            "label": "Locus 4",
+            "slug": "22-locus-4-215",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/72f82b85-4658-4e35-374c-d50c6944b73b",
+            "oc-api:descriptiveness": 509.24,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-26-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-26-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-26-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 4",
+                "uri": "http://opencontext.org/subjects/72f82b85-4658-4e35-374c-d50c6944b73b",
+                "href": "https://opencontext.org/subjects/72f82b85-4658-4e35-374c-d50c6944b73b",
+                "citation uri": "https://n2t.net/ark:/28722/k2qj7dn8n",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T22:01:01Z"
+            }
+        },
+        {
+            "id": "#record-27-of-78414",
+            "label": "Locus 45",
+            "slug": "22-locus-45-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/329a6bf9-99dc-4ac7-04da-b046e392314d",
+            "oc-api:descriptiveness": 508.51,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-27-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813539,
+                    37.830333
+                ]
+            },
+            "properties": {
+                "id": "#rec-27-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 45",
+                "uri": "http://opencontext.org/subjects/329a6bf9-99dc-4ac7-04da-b046e392314d",
+                "href": "https://opencontext.org/subjects/329a6bf9-99dc-4ac7-04da-b046e392314d",
+                "citation uri": "https://n2t.net/ark:/28722/k2mw2f12q",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area E/Trench 2",
+                "context href": "https://opencontext.org/subjects/071431e0-0143-4ccf-4953-17a033264ec8",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-e-2-2005-06-12-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T10:04:13Z"
+            }
+        },
+        {
+            "id": "#record-28-of-78414",
+            "label": "Locus 28",
+            "slug": "22-locus-28-7",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/885cbfe8-cbfd-4b9a-de6e-ce33cf43afb8",
+            "oc-api:descriptiveness": 506.815,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-28-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-28-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-28-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 28",
+                "uri": "http://opencontext.org/subjects/885cbfe8-cbfd-4b9a-de6e-ce33cf43afb8",
+                "href": "https://opencontext.org/subjects/885cbfe8-cbfd-4b9a-de6e-ce33cf43afb8",
+                "citation uri": "https://n2t.net/ark:/28722/k2kk99237",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T12:31:07Z"
+            }
+        },
+        {
+            "id": "#record-29-of-78414",
+            "label": "Locus 5",
+            "slug": "22-locus-5-18",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/338406e7-a13a-4f53-072c-6ae92d84d999",
+            "oc-api:descriptiveness": 495.815,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-29-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-29-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-29-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 5",
+                "uri": "http://opencontext.org/subjects/338406e7-a13a-4f53-072c-6ae92d84d999",
+                "href": "https://opencontext.org/subjects/338406e7-a13a-4f53-072c-6ae92d84d999",
+                "citation uri": "https://n2t.net/ark:/28722/k2fq9vv8q",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T12:46:22Z"
+            }
+        },
+        {
+            "id": "#record-30-of-78414",
+            "label": "Locus 14",
+            "slug": "22-locus-14-11",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/1c0771e6-ab5c-4d47-8782-5cdf4a229794",
+            "oc-api:descriptiveness": 490.415,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-30-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-30-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-30-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 14",
+                "uri": "http://opencontext.org/subjects/1c0771e6-ab5c-4d47-8782-5cdf4a229794",
+                "href": "https://opencontext.org/subjects/1c0771e6-ab5c-4d47-8782-5cdf4a229794",
+                "citation uri": "https://n2t.net/ark:/28722/k2m906s41",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-19-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-02-01T00:31:04Z"
+            }
+        },
+        {
+            "id": "#record-31-of-78414",
+            "label": "Trench 4",
+            "slug": "22-trench-4-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/85ac91bf-2978-4211-f6e2-75f999ad5a8c",
+            "oc-api:descriptiveness": 484.42499999999995,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-31-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812707,
+                    37.830874
+                ]
+            },
+            "properties": {
+                "id": "#rec-31-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 4",
+                "uri": "http://opencontext.org/subjects/85ac91bf-2978-4211-f6e2-75f999ad5a8c",
+                "href": "https://opencontext.org/subjects/85ac91bf-2978-4211-f6e2-75f999ad5a8c",
+                "citation uri": "https://n2t.net/ark:/28722/k25q4xj65",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C",
+                "context href": "https://opencontext.org/subjects/48465cc5-ecb3-4101-6a78-f2118be4323c",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-c-4-2002-08-08-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T16:47:41Z"
+            }
+        },
+        {
+            "id": "#record-32-of-78414",
+            "label": "Locus 1069",
+            "slug": "22-locus-1069",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/8d88a84f-4662-4e30-19dd-7c228233be9e",
+            "oc-api:descriptiveness": 475.515,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-32-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.815388,
+                    37.8313405
+                ]
+            },
+            "when": {
+                "id": "#record-event-32-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-3599",
+                "stop": "-3099"
+            },
+            "properties": {
+                "id": "#rec-32-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 1069",
+                "uri": "http://opencontext.org/subjects/8d88a84f-4662-4e30-19dd-7c228233be9e",
+                "href": "https://opencontext.org/subjects/8d88a84f-4662-4e30-19dd-7c228233be9e",
+                "citation uri": "https://n2t.net/ark:/28722/k2t15076b",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area F/Trench 1",
+                "context href": "https://opencontext.org/subjects/c1baa068-5c69-4b54-738d-81b41d8d08df",
+                "early bce/ce": -3600.0,
+                "late bce/ce": -3100.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-f-1-2002-08-19-a/full/150,/0/default.jpg",
+                "published": "2012-02-27T00:00:00Z",
+                "updated": "2024-01-31T14:08:46Z"
+            }
+        },
+        {
+            "id": "#record-33-of-78414",
+            "label": "Trench 9",
+            "slug": "22-trench-9-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/d27f0af8-3a11-43b5-42ed-f5523316a0a1",
+            "oc-api:descriptiveness": 462.13,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-33-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813397,
+                    37.830917
+                ]
+            },
+            "properties": {
+                "id": "#rec-33-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 9",
+                "uri": "http://opencontext.org/subjects/d27f0af8-3a11-43b5-42ed-f5523316a0a1",
+                "href": "https://opencontext.org/subjects/d27f0af8-3a11-43b5-42ed-f5523316a0a1",
+                "citation uri": "https://n2t.net/ark:/28722/k2sb4340r",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A",
+                "context href": "https://opencontext.org/subjects/f40478a6-1844-4650-2080-905040836d59",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-a-9-2002-08-23-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T14:09:08Z"
+            }
+        },
+        {
+            "id": "#record-34-of-78414",
+            "label": "Locus 1",
+            "slug": "22-locus-1-663",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/d5d99820-42cd-48b9-1028-3eeed0b6c698",
+            "oc-api:descriptiveness": 458.675,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-34-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813397,
+                    37.830917
+                ]
+            },
+            "properties": {
+                "id": "#rec-34-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 1",
+                "uri": "http://opencontext.org/subjects/d5d99820-42cd-48b9-1028-3eeed0b6c698",
+                "href": "https://opencontext.org/subjects/d5d99820-42cd-48b9-1028-3eeed0b6c698",
+                "citation uri": "https://n2t.net/ark:/28722/k25m67c4d",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A/Trench 9",
+                "context href": "https://opencontext.org/subjects/d27f0af8-3a11-43b5-42ed-f5523316a0a1",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-a-9-2002-08-18-b/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T12:00:10Z"
+            }
+        },
+        {
+            "id": "#record-35-of-78414",
+            "label": "Locus 16",
+            "slug": "22-locus-16-10",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/2acd0a14-99d5-4a66-e41c-ba0205934b7e",
+            "oc-api:descriptiveness": 455.975,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-35-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-35-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-35-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 16",
+                "uri": "http://opencontext.org/subjects/2acd0a14-99d5-4a66-e41c-ba0205934b7e",
+                "href": "https://opencontext.org/subjects/2acd0a14-99d5-4a66-e41c-ba0205934b7e",
+                "citation uri": "https://n2t.net/ark:/28722/k2s75c825",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-19-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T08:46:14Z"
+            }
+        },
+        {
+            "id": "#record-36-of-78414",
+            "label": "F-7-2005-07-02-Season",
+            "slug": "22-f-7-2005-07-02-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/7d53712e-f9ea-43bf-9e87-b8d4d8c83aad",
+            "oc-api:descriptiveness": 453.895,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-36-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.815434,
+                    37.831542
+                ]
+            },
+            "when": {
+                "id": "#record-event-36-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-3599",
+                "stop": "-2899"
+            },
+            "properties": {
+                "id": "#rec-36-of-78414",
+                "feature-type": "item record",
+                "label": "F-7-2005-07-02-Season",
+                "uri": "http://opencontext.org/documents/7d53712e-f9ea-43bf-9e87-b8d4d8c83aad",
+                "href": "https://opencontext.org/documents/7d53712e-f9ea-43bf-9e87-b8d4d8c83aad",
+                "citation uri": "https://n2t.net/ark:/28722/k22j6dm9d",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area F/Trench 7",
+                "context href": "https://opencontext.org/subjects/d6b9114a-a32c-48a6-7f28-46b4b9a661bd",
+                "early bce/ce": -3600.0,
+                "late bce/ce": -2900.0,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T03:57:17Z"
+            }
+        },
+        {
+            "id": "#record-37-of-78414",
+            "label": "Locus 10",
+            "slug": "22-locus-10-302",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/ece32698-f975-4c18-4d45-234c1a866823",
+            "oc-api:descriptiveness": 453.255,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-37-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-37-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-37-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 10",
+                "uri": "http://opencontext.org/subjects/ece32698-f975-4c18-4d45-234c1a866823",
+                "href": "https://opencontext.org/subjects/ece32698-f975-4c18-4d45-234c1a866823",
+                "citation uri": "https://n2t.net/ark:/28722/k2dz07r4p",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T11:06:36Z"
+            }
+        },
+        {
+            "id": "#record-38-of-78414",
+            "label": "Locus 155",
+            "slug": "22-locus-155-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/d23878d2-0a45-446e-cf83-ea497f30a0d6",
+            "oc-api:descriptiveness": 449.68,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-38-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-38-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4699",
+                "stop": "-4199"
+            },
+            "properties": {
+                "id": "#rec-38-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 155",
+                "uri": "http://opencontext.org/subjects/d23878d2-0a45-446e-cf83-ea497f30a0d6",
+                "href": "https://opencontext.org/subjects/d23878d2-0a45-446e-cf83-ea497f30a0d6",
+                "citation uri": "https://n2t.net/ark:/28722/k2c829313",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -4700.0,
+                "late bce/ce": -4200.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2007-06-16-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T07:27:52Z"
+            }
+        },
+        {
+            "id": "#record-39-of-78414",
+            "label": "Locus 75",
+            "slug": "22-locus-75-1",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/59f2f0e5-64ec-43e2-a5c0-38c12bc88a3a",
+            "oc-api:descriptiveness": 439.95,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-39-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813717,
+                    37.830596
+                ]
+            },
+            "when": {
+                "id": "#record-event-39-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4699",
+                "stop": "-4199"
+            },
+            "properties": {
+                "id": "#rec-39-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 75",
+                "uri": "http://opencontext.org/subjects/59f2f0e5-64ec-43e2-a5c0-38c12bc88a3a",
+                "href": "https://opencontext.org/subjects/59f2f0e5-64ec-43e2-a5c0-38c12bc88a3a",
+                "citation uri": "https://n2t.net/ark:/28722/k2x34sd2d",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 8",
+                "context href": "https://opencontext.org/subjects/a887ed68-9819-42ef-0c0d-7756f42212eb",
+                "early bce/ce": -4700.0,
+                "late bce/ce": -4200.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-8-2005-06-19-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-30T23:50:26Z"
+            }
+        },
+        {
+            "id": "#record-40-of-78414",
+            "label": "Locus 8",
+            "slug": "22-locus-8-23",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/9437119a-ed7f-4c46-3926-a0a367f78307",
+            "oc-api:descriptiveness": 433.815,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-40-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-40-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-40-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 8",
+                "uri": "http://opencontext.org/subjects/9437119a-ed7f-4c46-3926-a0a367f78307",
+                "href": "https://opencontext.org/subjects/9437119a-ed7f-4c46-3926-a0a367f78307",
+                "citation uri": "https://n2t.net/ark:/28722/k2cc10h6t",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T06:33:32Z"
+            }
+        },
+        {
+            "id": "#record-41-of-78414",
+            "label": "B-1-2000-08-015-Season",
+            "slug": "22-b-1-2000-08-015-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/acda9fcb-9fc4-423f-bf6e-e6b7e278b3bd",
+            "oc-api:descriptiveness": 428.55000000000007,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-41-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812856,
+                    37.830582
+                ]
+            },
+            "properties": {
+                "id": "#rec-41-of-78414",
+                "feature-type": "item record",
+                "label": "B-1-2000-08-015-Season",
+                "uri": "http://opencontext.org/documents/acda9fcb-9fc4-423f-bf6e-e6b7e278b3bd",
+                "href": "https://opencontext.org/documents/acda9fcb-9fc4-423f-bf6e-e6b7e278b3bd",
+                "citation uri": "https://n2t.net/ark:/28722/k2dn44c00",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area B/Trench 1",
+                "context href": "https://opencontext.org/subjects/f4221b6e-0099-4aa3-8266-90010e253776",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T03:39:36Z"
+            }
+        },
+        {
+            "id": "#record-42-of-78414",
+            "label": "Trench 4",
+            "slug": "22-trench-4-3",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/976c3c63-b99e-4311-a6e5-b17a35f34a1a",
+            "oc-api:descriptiveness": 425.3,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-42-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813187,
+                    37.83068
+                ]
+            },
+            "properties": {
+                "id": "#rec-42-of-78414",
+                "feature-type": "item record",
+                "label": "Trench 4",
+                "uri": "http://opencontext.org/subjects/976c3c63-b99e-4311-a6e5-b17a35f34a1a",
+                "href": "https://opencontext.org/subjects/976c3c63-b99e-4311-a6e5-b17a35f34a1a",
+                "citation uri": "https://n2t.net/ark:/28722/k2319z84d",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A",
+                "context href": "https://opencontext.org/subjects/f40478a6-1844-4650-2080-905040836d59",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Trench",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-trench-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-a-4-2002-08-11-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-02-01T00:29:24Z"
+            }
+        },
+        {
+            "id": "#record-43-of-78414",
+            "label": "Locus 23",
+            "slug": "22-locus-23-6",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/846ce372-0e42-4ba0-5669-43409cab0fbc",
+            "oc-api:descriptiveness": 424.61,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-43-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-43-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-43-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 23",
+                "uri": "http://opencontext.org/subjects/846ce372-0e42-4ba0-5669-43409cab0fbc",
+                "href": "https://opencontext.org/subjects/846ce372-0e42-4ba0-5669-43409cab0fbc",
+                "citation uri": "https://n2t.net/ark:/28722/k2tb13j66",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-30T23:33:39Z"
+            }
+        },
+        {
+            "id": "#record-44-of-78414",
+            "label": "C-2-2000-08-013-Season",
+            "slug": "22-c-2-2000-08-013-season",
+            "rdfs:isDefinedBy": "http://opencontext.org/documents/e6471c77-5fb0-4dd8-bd95-f354563269f6",
+            "oc-api:descriptiveness": 420.2850000000001,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-44-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812647,
+                    37.830723
+                ]
+            },
+            "properties": {
+                "id": "#rec-44-of-78414",
+                "feature-type": "item record",
+                "label": "C-2-2000-08-013-Season",
+                "uri": "http://opencontext.org/documents/e6471c77-5fb0-4dd8-bd95-f354563269f6",
+                "href": "https://opencontext.org/documents/e6471c77-5fb0-4dd8-bd95-f354563269f6",
+                "citation uri": "https://n2t.net/ark:/28722/k2rx97w0q",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C/Trench 2",
+                "context href": "https://opencontext.org/subjects/7080c9ee-10f9-43e0-0715-033e2ae4571e",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Documents",
+                "icon": "https://opencontext.org/static/oc/icons-v2/noun-document-3183378.svg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2023-10-05T04:09:19Z"
+            }
+        },
+        {
+            "id": "#record-45-of-78414",
+            "label": "Locus 17",
+            "slug": "22-locus-17",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/8b9c9930-db53-4e40-a1f2-068b9ac3c7e1",
+            "oc-api:descriptiveness": 416.075,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-45-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813647,
+                    37.830535
+                ]
+            },
+            "when": {
+                "id": "#record-event-45-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1899",
+                "stop": "-1699"
+            },
+            "properties": {
+                "id": "#rec-45-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 17",
+                "uri": "http://opencontext.org/subjects/8b9c9930-db53-4e40-a1f2-068b9ac3c7e1",
+                "href": "https://opencontext.org/subjects/8b9c9930-db53-4e40-a1f2-068b9ac3c7e1",
+                "citation uri": "https://n2t.net/ark:/28722/k23n2539m",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 6",
+                "context href": "https://opencontext.org/subjects/e5b52f10-333f-4cb8-c397-7dfad00a3719",
+                "early bce/ce": -1900.0,
+                "late bce/ce": -1700.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-6-2002-08-20-c/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T06:32:03Z"
+            }
+        },
+        {
+            "id": "#record-46-of-78414",
+            "label": "Locus 4110",
+            "slug": "22-locus-4110",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/17b95c11-16c3-4fcb-b61a-e8c8890e927f",
+            "oc-api:descriptiveness": 412.96000000000004,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-46-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813654,
+                    37.830637
+                ]
+            },
+            "when": {
+                "id": "#record-event-46-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4699",
+                "stop": "-4199"
+            },
+            "properties": {
+                "id": "#rec-46-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 4110",
+                "uri": "http://opencontext.org/subjects/17b95c11-16c3-4fcb-b61a-e8c8890e927f",
+                "href": "https://opencontext.org/subjects/17b95c11-16c3-4fcb-b61a-e8c8890e927f",
+                "citation uri": "https://n2t.net/ark:/28722/k2f47nn21",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 4",
+                "context href": "https://opencontext.org/subjects/618bcb52-381b-4263-c3ce-99676745e24d",
+                "early bce/ce": -4700.0,
+                "late bce/ce": -4200.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-4-2007-07-02-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T21:29:43Z"
+            }
+        },
+        {
+            "id": "#record-47-of-78414",
+            "label": "Locus 4113",
+            "slug": "22-locus-4113",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/27393484-9093-45c9-d9bd-45dc1f5c976c",
+            "oc-api:descriptiveness": 412.095,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-47-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813654,
+                    37.830637
+                ]
+            },
+            "when": {
+                "id": "#record-event-47-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-4699",
+                "stop": "-4199"
+            },
+            "properties": {
+                "id": "#rec-47-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 4113",
+                "uri": "http://opencontext.org/subjects/27393484-9093-45c9-d9bd-45dc1f5c976c",
+                "href": "https://opencontext.org/subjects/27393484-9093-45c9-d9bd-45dc1f5c976c",
+                "citation uri": "https://n2t.net/ark:/28722/k2qz2798b",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area D/Trench 4",
+                "context href": "https://opencontext.org/subjects/618bcb52-381b-4263-c3ce-99676745e24d",
+                "early bce/ce": -4700.0,
+                "late bce/ce": -4200.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-d-4-2007-06-19-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T16:09:41Z"
+            }
+        },
+        {
+            "id": "#record-48-of-78414",
+            "label": "Locus 4030",
+            "slug": "22-locus-4030-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/97bbddbd-063d-433a-85b5-b4964a8a4180",
+            "oc-api:descriptiveness": 406.285,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-48-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.812707,
+                    37.830874
+                ]
+            },
+            "when": {
+                "id": "#record-event-48-of-78414",
+                "event_type": "oc-gen:general-time-space",
+                "type": "Interval",
+                "start": "-1049",
+                "stop": "-0899"
+            },
+            "properties": {
+                "id": "#rec-48-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 4030",
+                "uri": "http://opencontext.org/subjects/97bbddbd-063d-433a-85b5-b4964a8a4180",
+                "href": "https://opencontext.org/subjects/97bbddbd-063d-433a-85b5-b4964a8a4180",
+                "citation uri": "https://n2t.net/ark:/28722/k2bz66638",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area C/Trench 4",
+                "context href": "https://opencontext.org/subjects/85ac91bf-2978-4211-f6e2-75f999ad5a8c",
+                "early bce/ce": -1050.0,
+                "late bce/ce": -900.0,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-c-4-2001-08-16-a/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T17:29:43Z"
+            }
+        },
+        {
+            "id": "#record-49-of-78414",
+            "label": "Locus 2076",
+            "slug": "22-locus-2076",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/1cd6f6ec-15b0-459f-24ef-8f5d407fa869",
+            "oc-api:descriptiveness": 404.68499999999995,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-49-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813314,
+                    37.830724
+                ]
+            },
+            "properties": {
+                "id": "#rec-49-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 2076",
+                "uri": "http://opencontext.org/subjects/1cd6f6ec-15b0-459f-24ef-8f5d407fa869",
+                "href": "https://opencontext.org/subjects/1cd6f6ec-15b0-459f-24ef-8f5d407fa869",
+                "citation uri": "https://n2t.net/ark:/28722/k2nc5zk4b",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A/Trench 2",
+                "context href": "https://opencontext.org/subjects/fc96a49e-fe12-488b-4eff-02d4e147b885",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-a-2-2001-08-19-g/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T00:13:29Z"
+            }
+        },
+        {
+            "id": "#record-50-of-78414",
+            "label": "Locus 2043",
+            "slug": "22-locus-2043-2",
+            "rdfs:isDefinedBy": "http://opencontext.org/subjects/d9462e19-fa12-40bf-cafb-072200909262",
+            "oc-api:descriptiveness": 403.6,
+            "oc-api:human-remains-related": false,
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#record-geom-50-of-78414",
+                "type": "Point",
+                "coordinates": [
+                    40.813314,
+                    37.830724
+                ]
+            },
+            "properties": {
+                "id": "#rec-50-of-78414",
+                "feature-type": "item record",
+                "label": "Locus 2043",
+                "uri": "http://opencontext.org/subjects/d9462e19-fa12-40bf-cafb-072200909262",
+                "href": "https://opencontext.org/subjects/d9462e19-fa12-40bf-cafb-072200909262",
+                "citation uri": "https://n2t.net/ark:/28722/k2nv9gh7f",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3de4cd9c-259e-4c14-9b03-8b10454ba66e",
+                "context label": "Asia/Turkey/Kenan Tepe/Area A/Trench 2",
+                "context href": "https://opencontext.org/subjects/fc96a49e-fe12-488b-4eff-02d4e147b885",
+                "early bce/ce": null,
+                "late bce/ce": null,
+                "item category": "Locus",
+                "icon": "https://opencontext.org/static/oc/icons-v2/oc-context-icon.svg",
+                "thumbnail": "https://iiif.archive.org/iiif/opencontext-22-dayplan-a-2-2001-08-19-g/full/150,/0/default.jpg",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2024-01-31T17:14:50Z"
+            }
+        }
+    ],
+    "query": {
+        "facet": "true",
+        "facet.mincount": 1,
+        "rows": 50,
+        "start": 0,
+        "debugQuery": "false",
+        "fq": [
+            "turkey___context_id:22_kenan_tepe_15___*"
+        ],
+        "facet.field": [
+            "ld___pred_id",
+            "image_media_count",
+            "three_d_media_count",
+            "gis_media_count",
+            "other_binary_media_count",
+            "documents_count",
+            "all_events___geo_precision_factor",
+            "event_class_slugs",
+            "all_events___geo_count",
+            "all_events___chrono_count",
+            "human_remains",
+            "root___project_id",
+            "item_type",
+            "22_kenan_tepe_15___context_id",
+            "all_events___geo_tile",
+            "all_events___chrono_tile"
+        ],
+        "facet.range": [],
+        "stats": "true",
+        "stats.field": [
+            "updated",
+            "published",
+            "interest_score",
+            "all_events___chrono_point_0___pdouble",
+            "all_events___chrono_point_1___pdouble",
+            "filesize"
+        ],
+        "sort": "interest_score desc, uuid asc",
+        "q": "*:*",
+        "cursorMark": "*",
+        "f.all_events___geo_tile.facet.limit": -1,
+        "f.all_events___chrono_tile.facet.limit": -1,
+        "wt": "json"
+    }
+}
