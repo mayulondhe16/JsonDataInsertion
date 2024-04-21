@@ -53,7 +53,7 @@ class DataController extends Controller
             // $keysWithId = array_keys(array_column($dataArray, "id"));
             $newArray = $this->findIds($dataArray);
             // dd($idKeys);
-            $idKeys = array_unique($newArray)
+            $idKeys = array_unique($newArray);
             $csvFile = public_path('files\New-Data.csv');
             $csvHandle = fopen($csvFile,'w');
 
